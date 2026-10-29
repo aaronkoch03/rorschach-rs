@@ -4,6 +4,7 @@ use crate::presets::hama::hama;
 use crate::presets::madrs::madrs;
 use crate::presets::phq9::phq9;
 use crate::presets::ymrs::ymrs;
+use crate::presets::hamd21::hamd21;
 use crate::questionnaire::Questionnaire;
 
 pub enum QuestionnairePresets {
@@ -13,6 +14,7 @@ pub enum QuestionnairePresets {
     YMRS,
     MADRS,
     HAMA,
+    HAMD21,
 }
 
 impl QuestionnairePresets {
@@ -35,6 +37,9 @@ impl QuestionnairePresets {
             }
             QuestionnairePresets::HAMA => {
                 hama().expect("Should always work, because its hard coded")
+            }
+            QuestionnairePresets::HAMD21 => {
+                hamd21().expect("Should always work, because its hard coded")
             }
         }
     }

@@ -111,6 +111,16 @@ pub enum PhenotypeTerms {
     CognitiveImpairment,
     AbnormalAutonomicNervousSystemPhysiology,
     AtypicalBehavior,
+    SleepOnsetInsomnia,
+    MaintenanceInsomnia,
+    TerminalInsomnia,
+    ImpairmentOfActivitiesOfDailyLiving,
+    HypochondriacDelusion,
+    WeightLoss,
+    DiurnalVariation,
+    Depersonalization,
+    Paranoia,
+    ObsessiveCompulsiveTrait,
 }
 
 impl AsTerm for PhenotypeTerms {
@@ -185,6 +195,22 @@ impl AsTerm for PhenotypeTerms {
             PhenotypeTerms::AtypicalBehavior => Term::new("HP:0000708", "Atypical behavior"),
             PhenotypeTerms::SenseOfImpendingDoom => {
                 Term::new("HP:0033845", "Sense of impending doom")
+            }
+            PhenotypeTerms::SleepOnsetInsomnia => Term::new("HP:0031354", "Sleep onset insomnia"),
+            PhenotypeTerms::MaintenanceInsomnia => Term::new("HP:0031355", "Maintenance insomnia"),
+            PhenotypeTerms::TerminalInsomnia => Term::new("HP:0031356", "Terminal insomnia"),
+            PhenotypeTerms::ImpairmentOfActivitiesOfDailyLiving => {
+                Term::new("HP:0031058", "Impairment of activities of daily living")
+            }
+            PhenotypeTerms::HypochondriacDelusion => {
+                Term::new("HP:5200425", "Hypochondriac delusion")
+            }
+            PhenotypeTerms::WeightLoss => Term::new("HP:0001824", "Weight loss"),
+            PhenotypeTerms::DiurnalVariation => Term::new("HP:0025302", "Diurnal"),
+            PhenotypeTerms::Depersonalization => Term::new("HP:5200217", "Depersonalization"),
+            PhenotypeTerms::Paranoia => Term::new("HP:0011999", "Paranoia"),
+            PhenotypeTerms::ObsessiveCompulsiveTrait => {
+                Term::new("HP:0008770", "Obsessive-compulsive trait")
             }
         }
     }

@@ -17,3 +17,6 @@ target
 .vscode/
 
 Cargo.lock
+
+data/
+out/
