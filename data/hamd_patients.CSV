@@ -1,0 +1,8 @@
+record_id,redcap_event_name,hamd_timestamp,gdr,gmr,hamd_1,hamd_2,hamd_3,hamd_4,hamd_5,hamd_6,hamd_7,hamd_8,hamd_9,hamd_10,hamd_11,hamd_12,hamd_13,hamd_14,hamd_15,hamd_16,hamd_17,hamd_18a,hamd_18b,hamd_19,hamd_20,hamd_21,hamd_1a,hamd_2a,hamd_3a,hamd_4a,hamd_5a,hamd_6a,hamd_7a,hamd_8a,hamd_gafs,hamd_a,hamd_b,hamd_rdc,hamd_pa,hamd_case,hamd_labdata,hamd_exclude,hamd_code,hamd_note,hamd_complete,hamd_unreliable_flag,interview_type,interview,hamd_17_score,hamd_21_score,hamd_atypical_score,hamd_17_atypical_score,hamd_21_atypical_score,hamd_17_missing,hamd_21_missing,hamd_atypical_missing,date_imputed,source_file
+1,,2026-10-18T10:15:00,Baseline,,4,4,4,2,2,2,4,4,4,4,4,2,2,2,4,2,2,2,2,4,3,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,,2026-10-18T10:15:00,Baseline,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,,2026-10-19T12:15:00,Baseline,,2,1,4,1,2,1,3,2,1,2,0,2,1,0,1,2,1,1,0,2,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,,2026-11-18T12:15:00,Baseline,,3,1,0,1,,0,1,1,3,4,0,2,0,1,2,1,1,2,1,3,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,,2026-12-3T10:08:00,Baseline,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,Follow-up,2026-10-18T10:15:00,,,1,2,3,0,1,2,2,1,4,3,2,1,2,1,3,0,2,0,1,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,Follow-up,2026-10-18T10:15:00,,,0,1,1,0,0,1,1,0,1,1,1,0,1,0,2,0,1,0,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
